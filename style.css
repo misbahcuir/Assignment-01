@@ -8,6 +8,7 @@
 nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 40px 100px;
 }
 .nav-btn button{
@@ -22,3 +23,52 @@ nav{
     line-height: 23px;
     cursor: pointer;
 }
+
+/* Main Section */
+
+.hero{
+    height: 652px;
+    width: 100%;
+    background-image: url("./assets/Hero-bg.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-info{
+    width: 998px;
+    height: 582px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero-info h1{
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: center;
+    margin-top: 32px;
+}
+.hero-info p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.hero-info button{
+    width: 208px;
+    height: 66px;
+    padding: 21px 24px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    cursor: pointer;
+}
+.hero-info button a{
+    font-size: 16px;
+    font-weight: 400;  
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.why-web
