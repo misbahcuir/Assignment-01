@@ -11,18 +11,19 @@ nav{
     align-items: center;
     padding: 40px 100px;
 }
-.nav-btn button{
+.nav-btn button {
     width: 248px;
     height: 58px;
     padding: 17px 24px;
-    color: rgb(13, 19, 33);
     border: 1px solid rgb(13, 19, 33);
     border-radius: 8px;
+}
+.nav-btn button a{
+    color: rgb(13, 19, 33);
     font-size: 20px;
     font-weight: 400;
-    line-height: 23px;
+    text-decoration: none;
 }
-
 /* Main Section */
 
 .hero{
@@ -41,13 +42,15 @@ nav{
     align-items: center;
 }
 .hero-info h1{
-    font-size: 38px;
-    font-weight: 600;
-    line-height: 48px;
+    color: rgb(13, 19, 33);
+    font-size: 48px;
+    font-weight: 800;
     text-align: center;
     margin-top: 32px;
 }
 .hero-info p{
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -55,13 +58,12 @@ nav{
     margin: 32px auto;
     width: 852px;
 }
-.hero-info button{
-    width: 208px;
+.hero-info button a{
     height: 66px;
     padding: 21px 24px;
     border-radius: 8px;
+    border: none;
     background: rgb(13, 19, 33);
-    cursor: pointer;
 }
 .hero-info button a{
     font-size: 16px;
@@ -82,7 +84,7 @@ nav{
 .web-title h2{
     color: rgb(13, 19, 33);
     font-size: 32px;
-    font-weight: 600;
+    font-weight: 800;
     text-align: center;
 }
 .web-title p{
@@ -238,5 +240,149 @@ nav{
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
     padding: 32px;
-    margin-bottom: 150px;
+}
+
+/* Target Section */
+
+.current-target{
+    padding: 100px;
+}
+.target-title h2{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.target-title p{
+    margin: 0 auto;
+    width: 852px;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.target-info{
+    display: flex;
+    gap: 24px;
+}
+.target-info-div{
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.target-info-div h3{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+.target-info-div p{
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+.target-info-div a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+}
+.blue{
+    background: rgba(0, 76, 232, 0.05);
+}
+.yellow{
+    background: rgba(255, 223, 0, 0.05);
+}
+#call-to-action{
+    padding: 0 100px;
+}
+.call-to-action{
+    height: 314px;
+    border-radius: 16px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("./assets/handshake.jpg");
+    padding: 64px 48px;
+    margin-bottom: 100px;
+}
+
+.call-to-action-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.call-to-action-info h2{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.call-to-action-info p{
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 36px;
+}
+.call-to-action-info input{
+    width: 548px;
+    height: 57px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding-left: 15px;
+    color: rgba(13, 19, 33, 0.4);   
+    font-size: 16px;
+    font-weight: 400;
+}
+.call-to-action-info button{
+    width: 120px;
+    height: 58px;
+    padding: 12px 20px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+footer{
+    padding: 0 100px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer h2{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+}
+.social-media{
+    display: flex;
+    gap: 20px;
+    align-items: center;
 }
