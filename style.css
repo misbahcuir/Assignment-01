@@ -21,7 +21,6 @@ nav{
     font-size: 20px;
     font-weight: 400;
     line-height: 23px;
-    cursor: pointer;
 }
 
 /* Main Section */
@@ -53,8 +52,8 @@ nav{
     font-weight: 400;
     line-height: 26px;
     text-align: center;
-    margin-top: 32px;
-    margin-bottom: 32px;
+    margin: 32px auto;
+    width: 852px;
 }
 .hero-info button{
     width: 208px;
@@ -71,4 +70,173 @@ nav{
     text-decoration: none;
 }
 
-.why-web
+.why-web{
+    padding: 0 100px;
+    margin-top: 75px;
+}
+.web-info{
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    padding: 80px 97px;
+}
+.web-title h2{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+}
+.web-title p{
+    margin: 0 auto;
+    width: 852px;
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 48px;
+}
+.web-info-1{
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.web-info-1 h3{
+    color: rgba(13, 19, 33, 0.7);
+    width: 390px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 16px;
+}
+.web-info-1 p{
+    margin-bottom: 32px;
+    width: 520px;
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    }
+.web-info-1 button{
+    width: 180px;
+    height: 48px;
+    padding: 12px 20px;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.web-info-2{
+    display: flex;
+    gap: 48px;
+    padding: 48px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.web-info-2 h3{
+    color: rgba(13, 19, 33, 0.7);
+    width: 477px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 16px;
+}
+.web-info-2 p{
+    margin-bottom: 32px;
+    width: 600px;
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.web-info-2 button{
+    width: 180px;
+    height: 48px;
+    padding: 12px 20px;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.web-info-3{
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.web-info-3 h3{
+    color: rgba(13, 19, 33, 0.7);
+    width: 390px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 16px;
+}
+.web-info-3 p{
+    margin-bottom: 32px;
+    width: 550px;
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    }
+.web-info-3 button{
+    width: 180px;
+    height: 48px;
+    padding: 12px 20px;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+            /* Inspiration Section */
+
+.inspiration-section{
+    padding: 100px;
+}
+.inspiration-title h2{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.inspiration-title p{
+    margin: 0 auto;
+    width: 852px;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.inspiration-video{
+    display: flex;
+    justify-content: center;
+}
+.inspiration-video iframe{
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding: 32px;
+    margin-bottom: 150px;
+}
